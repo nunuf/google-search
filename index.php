@@ -15,10 +15,10 @@
     <h1>Google-Search</h1>
   </div>
 
-  <form action="../server.php" method="get">
+  <form action="../server.php">
 
-    <input type="text" name="search" placeholder="text to search" required>
-    <button>search</button>
+    <input type="text" name="search" placeholder="Text to search" required>
+    <button>Search</button>
 
   </form>
 

@@ -1,6 +1,6 @@
 <?php
 
-$search = $_GET["search"];
+$search = trim($_GET["search"], " ");
 
 if ($search !== '') {
   $search = urlencode($_GET['search']);

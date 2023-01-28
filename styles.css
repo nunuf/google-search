@@ -22,14 +22,14 @@ h1 {
 form {
   position: absolute;
   top: 30%;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 10px;
   margin: 10px;
   border: 1px solid #ae8625;
-  display: inline-block;
   border-radius: 10px;
   box-shadow: 5px 7px 10px #f7ef8a;
-} 
+}
 
 input {
   width: 200px;
@@ -37,12 +37,20 @@ input {
   font-size: 20px;
   color: #f7ef8a;
   background-color: black;
+  border-color: black !important;
+  border-radius: 8px;
   display: inline-block;
+  margin: 8px 0;
 }
 
 button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
   background-image: linear-gradient(90deg, #ae8625,  #f7ef8a,  #d2ac47);
   border: #f7ef8a;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* width */
